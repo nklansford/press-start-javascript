@@ -1,0 +1,19 @@
+/* Global */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Press+Start+2P&display=swap");
+@import "styles/colors.css";
+@import "styles/typography.css";
+@import "styles/global.css";
+
+/* Layouts */
+@import "styles/layouts/title-screen.css";
+
+/*
+Make into variables:
+
+font-family: 'Inter', sans-serif;
+font-family: 'Press Start 2P', cursive;
+
+Radial Gradient: rgba(32, 24, 122, 1)
+Heading: #C1C1F7
+Text: #fff
+*/

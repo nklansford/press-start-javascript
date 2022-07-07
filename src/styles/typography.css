@@ -1,0 +1,28 @@
+:root {
+  --type-font-body: "Inter", sans-serif;
+  --type-font-heading: "Press Start 2P", cursive;
+}
+
+body {
+  color: var(--color-white);
+  font-family: var(--type-font-body);
+}
+
+button {
+  font-size: 1rem;
+  color: var(--color-text-body);
+}
+
+a {
+  color: var(--color-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-heading);
+  font-family: var(--type-font-heading);
+}

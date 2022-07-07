@@ -1,0 +1,7 @@
+:root {
+  --color-white: #ffffff;
+  --color-background-gradient: radial-gradient(#20187a, #06004e);
+  --color-text-heading: #c1c1f7;
+  --color-text-body: #fffff;
+  --color-text-body--dim: #c1c1f7;
+}

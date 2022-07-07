@@ -1,0 +1,15 @@
+body {
+  background: var(--color-background-gradient);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+button {
+  background: none;
+  text-decoration: none;
+  border: none;
+}
+
+.control-play-pause:hover {
+  text-decoration: underline;
+}

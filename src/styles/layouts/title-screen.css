@@ -1,0 +1,28 @@
+.title-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-screen__controls {
+  text-align: center;
+}
+
+/* Revisit, make accessible solution */
+/* Play around with this: https://codepen.io/stoumann/pen/rNMprwo */
+.title-screen__start {
+  text-decoration: none;
+  animation: startAnimation 2.5s linear infinite;
+}
+
+.title-screen__start--play {
+}
+
+.title-screen__start--paused {
+  animation-play-state: paused;
+}
+
+@keyframes startAnimation {
+  50% {
+    opacity: 0;
+  }
+}
